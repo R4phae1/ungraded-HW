@@ -1,0 +1,8 @@
+def main(n):
+    nsum=0
+    for i in range (0,n+1):
+        nsum=nsum+i
+    return nsum
+
+s=main((int) (input("Input your number here")))
+print(s)
